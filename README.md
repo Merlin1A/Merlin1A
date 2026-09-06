@@ -8,6 +8,8 @@ Software engineer — iOS/Swift and backend/Python. BS in Computer Science, UMas
 
 Open-source, on-device iOS 26 PDF and image redaction — no accounts, no telemetry, and a binary that contains zero `URLSession`/`NWConnection` references. Sole engineer across product, architecture, security model, build pipeline, and the App Store release (v1.1.0 live). About 171k lines across a Swift 6.2 app + `RedactionEngine` package and a deterministic, hash-locked Python 3.12 data pipeline; 3,759 test functions.
 
+Designed from November 2025 and built from February 2026 in a private tree; public on GitHub since July 2026.
+
 | Repository | What it is |
 |---|---|
 | [resecta](https://github.com/Merlin1A/resecta) | The iOS app and the `RedactionEngine` SwiftPM package — Swift 6.2 strict concurrency, PDFKit/CoreGraphics/Vision, 5- and 10-layer output verification, a written threat model |
